@@ -1,0 +1,225 @@
+
+{
+  "histoire_geographie": [
+    {
+      "question": "Quelles sont les causes principales de la seconde guerre mondiale ?",
+      "options": [
+        "L'inefficacité de la SDN, l'échec du traité de Versailles",
+        "La révolution industrielle, la découverte de l'Amérique", 
+        "La guerre froide, la chute du mur de Berlin",
+        "La création de l'ONU, la décolonisation"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Les principales causes sont : l'inefficacité de la SDN, l'échec du traité de Versailles de 1919, la crise économique de 1929, l'arrivée au pouvoir des régimes dictatoriaux en Europe, les crises polonaises et la déclaration de guerre le 1er septembre 1939."
+    },
+    {
+      "question": "Quel était le bilan humain de la seconde guerre mondiale ?",
+      "options": [
+        "Plus de 60 millions de morts",
+        "Plus de 20 millions de morts",
+        "Plus de 100 millions de morts", 
+        "Plus de 10 millions de morts"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Bilan humain : plus de 60 millions de morts, 35 millions de blessés, 3 millions de disparus. Un bilan 7 fois plus que celui de la première guerre mondiale."
+    },
+    {
+      "question": "Quand les USA sont-ils entrés dans la seconde guerre mondiale ?",
+      "options": [
+        "8 décembre 1941",
+        "7 décembre 1941",
+        "1er septembre 1939",
+        "6 juin 1944"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Les USA sont entrés en guerre le 8 décembre 1941, à la suite de l'attaque japonaise de Pearl Harbour le 7 décembre 1941."
+    },
+    {
+      "question": "Qu'est-ce que Pearl Harbour ?",
+      "options": [
+        "La plus grande base navale américaine au Pacifique",
+        "Un camp de concentration nazi",
+        "Une bataille en Europe",
+        "Une conférence de paix"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Pearl Harbour est la plus grande base navale américaine située au Pacifique. Elle a été attaquée par les japonais le 7 décembre 1941 obligeant les USA à entrer en guerre."
+    },
+    {
+      "question": "Qu'est-ce que le procès de Nuremberg ?",
+      "options": [
+        "Un procès contre les criminels nazis",
+        "Un procès contre les criminels japonais",
+        "Une conférence de paix",
+        "Un traité commercial"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Le procès de Nuremberg institué à la fin de la seconde guerre mondiale, visait uniquement les nazis qui avaient commis des exactions. 12 nazis seront condamnés à mort par pendaison."
+    },
+    {
+      "question": "Quand l'ONU a-t-elle été créée ?",
+      "options": [
+        "25 juin 1945 à San Francisco",
+        "25 mai 1963 à Addis Abéba",
+        "4 février 1945 à Yalta",
+        "8 mai 1945 à Berlin"
+      ],
+      "correct_option_id": 0,
+      "explanation": "L'ONU a été créée à la conférence de San Francisco aux USA, du 25 avril au 25 juin 1945, suite à l'échec de la SDN."
+    },
+    {
+      "question": "Qu'est-ce que la guerre froide ?",
+      "options": [
+        "Affrontement idéologique USA-URSS (1947-1989)",
+        "Une guerre en hiver",
+        "La seconde guerre mondiale",
+        "La guerre du Vietnam"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Guerre froide : période d'affrontement idéologique, économique et diplomatique entre le camp occidental (USA) et communiste (URSS), entre 1947 à 1989."
+    },
+    {
+      "question": "Qu'est-ce que le Plan Marshall ?",
+      "options": [
+        "Plan d'aide américaine à l'Europe (1947)",
+        "Plan de guerre contre l'URSS",
+        "Plan de reconstruction du Japon",
+        "Plan de décolonisation"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Plan d'aide massive à l'Europe, lancé en juin 1947 par les États-Unis à hauteur de 13 milliards de dollars US. Il sera refusé par les pays dépendants de l'URSS."
+    },
+    {
+      "question": "Quelle crise fut la plus grave de la guerre froide ?",
+      "options": [
+        "La crise de Cuba (1962)",
+        "La crise de Berlin (1948)",
+        "La guerre de Corée (1950)",
+        "La crise de Suez (1956)"
+      ],
+      "correct_option_id": 0,
+      "explanation": "La crise de Cuba est la plus grave car elle avait failli plonger le monde dans un affrontement nucléaire en mettant face à face les USA et l'URSS."
+    },
+    {
+      "question": "Pourquoi la seconde guerre mondiale est-elle un facteur de décolonisation ?",
+      "options": [
+        "Découverte de la réalité de l'homme blanc",
+        "Destruction de l'Europe",
+        "Création de l'ONU",
+        "Développement de l'aviation"
+      ],
+      "correct_option_id": 0,
+      "explanation": "La seconde guerre mondiale apparaît comme le moment de la découverte de l'homme blanc dans sa réalité. L'homme noir se sentira fort, le complexe d'infériorité disparaîtra."
+    },
+    {
+      "question": "Quand la conférence de Brazzaville s'est-elle tenue ?",
+      "options": [
+        "30 janvier au 8 février 1944",
+        "25 mai 1963",
+        "20 mars 1956",
+        "2 octobre 1958"
+      ],
+      "correct_option_id": 0,
+      "explanation": "La conférence de Brazzaville s'est tenue du 30 janvier au 8 février 1944 sous l'égide du Général de Gaulle, pour améliorer les conditions de vie des colonisés."
+    },
+    {
+      "question": "Quel territoire a voté 'non' au référendum de 1958 ?",
+      "options": [
+        "La Guinée Conakry",
+        "Le Sénégal",
+        "Le Mali",
+        "Le Tchad"
+      ],
+      "correct_option_id": 0,
+      "explanation": "La Guinée Conakry a voté non au référendum de 1958 et a accédé à son indépendance le 2 octobre 1958."
+    },
+    {
+      "question": "Quand l'Union Africaine a-t-elle été créée ?",
+      "options": [
+        "2 mars 2001 à Syrte (Libye)",
+        "25 mai 1963 à Addis Abéba",
+        "1er janvier 2000",
+        "15 août 1960"
+      ],
+      "correct_option_id": 0,
+      "explanation": "L'OUA s'est transformée en UA lors du sommet du 2 mars 2001 à Syrte (Libye) et est devenue une réalité en Juillet 2002."
+    },
+    {
+      "question": "Quels sont les principaux massifs montagneux du Tchad ?",
+      "options": [
+        "Emi-koussi, Tibesti, Ouaddaï, Guéra",
+        "Atlas, Himalaya, Andes",
+        "Alpes, Pyrénées, Vosges",
+        "Mont Blanc, Kilimandjaro"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Les principaux massifs sont : l'Emi-koussi (3415m), le Tibesti, le massif du Ouaddaï, le massif du Guéra et les monts de Lam."
+    },
+    {
+      "question": "Quelles sont les causes de dégradation du lac Tchad ?",
+      "options": [
+        "Causes naturelles et anthropiques",
+        "Seulement les causes naturelles",
+        "Seulement les activités humaines",
+        "Les guerres civiles"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Causes naturelles : réchauffement climatique, déficit pluviométrique. Causes anthropiques : déforestation, surexploitation des eaux par la poldérisation."
+    },
+    {
+      "question": "Combien de zones climatiques le Tchad possède-t-il ?",
+      "options": [
+        "Trois zones",
+        "Deux zones",
+        "Quatre zones",
+        "Une zone"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Le Tchad a trois zones climatiques : tropicale humide (sud), sahélienne (centre) et désertique (nord)."
+    },
+    {
+      "question": "Quand le pétrole tchadien a-t-il commencé à être exploité ?",
+      "options": [
+        "10 octobre 2003",
+        "1er janvier 2000",
+        "15 août 1960",
+        "20 mai 1990"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Le pétrole tchadien a commencé à être exploité le 10 octobre 2003, faisant entrer le Tchad dans le cercle des pays producteurs de pétrole."
+    },
+    {
+      "question": "Quels sont les principaux produits d'exportation du Tchad ?",
+      "options": [
+        "Pétrole, coton, gomme arabique, bétail",
+        "Café, cacao, bananes",
+        "Diamants, or, argent",
+        "Voitures, avions, ordinateurs"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Le Tchad exporte principalement du pétrole, du coton, de la gomme arabique, du bétail sur pied, la viande, les peaux et cuirs."
+    },
+    {
+      "question": "Pourquoi dit-on que le Tchad est un pays sahélo-saharien ?",
+      "options": [
+        "Il est situé entre le sahel et le désert",
+        "Il n'a que du désert",
+        "Il n'a que de la savane",
+        "Il est situé en Asie"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Le Tchad est qualifié de pays sahélo-saharien parce qu'il est géographiquement situé entre la zone sahélienne et le désert du Sahara."
+    },
+    {
+      "question": "Qu'est-ce que la conférence de Bandung ?",
+      "options": [
+        "Conférence afro-asiatique de 1955",
+        "Conférence européenne",
+        "Conférence américaine",
+        "Conférence sur le climat"
+      ],
+      "correct_option_id": 0,
+      "explanation": "La conférence de Bandung (1955) était une conférence afro-asiatique qui a dénoncé le colonialisme et soutenu l'indépendance des peuples colonisés."
+    }
+  ]
+}
