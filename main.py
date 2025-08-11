@@ -1051,9 +1051,10 @@ class EducationalBot:
         self.data_manager.load_scores()
         self.data_manager.load_active_groups()
 
-        try:
-            application = Application.builder().token(self.state.TELEGRAM_TOKEN).build()
+        # Créer l'application
+        application = Application.builder().token(self.state.TELEGRAM_TOKEN).build()
 
+        try:
             # Commandes
             application.add_handler(CommandHandler("start", self.start_command))
             application.add_handler(CommandHandler("help", self.help_command))
@@ -1082,35 +1083,28 @@ class EducationalBot:
             print(f"📊 Scores chargés pour {len(self.state.group_scores)} groupes")
             print(f"👥 {len(self.state.active_groups)} groupes actifs")
 
-            # Initialiser l'application
-            await application.initialize()
-            
             # Démarrer la tâche de sauvegarde périodique
             self.save_task = asyncio.create_task(self.data_manager.periodic_save())
 
-            try:
-                # Démarrer le polling
-                await application.start()
-                await application.updater.start_polling()
-                
-                # Attendre indéfiniment
-                await asyncio.Event().wait()
-                
-            except KeyboardInterrupt:
-                logger.info("Arrêt du bot demandé par l'utilisateur")
-            finally:
-                # Arrêter la tâche de sauvegarde et sauvegarder une dernière fois
-                if self.save_task:
-                    self.save_task.cancel()
-                logger.info("Sauvegarde finale des données...")
-                self.data_manager.save_scores()
-                self.data_manager.save_active_groups()
-                logger.info("Données sauvegardées avec succès")
-                
-                # Arrêter proprement l'application
-                await application.updater.stop()
-                await application.stop()
-                await application.shutdown()
+            # Démarrer le bot avec run_polling (méthode recommandée)
+            await application.run_polling(
+                poll_interval=1.0,
+                timeout=10,
+                bootstrap_retries=5,
+                read_timeout=2,
+                write_timeout=2
+            )
+            
+        except KeyboardInterrupt:
+            logger.info("Arrêt du bot demandé par l'utilisateur")
+        finally:
+            # Arrêter la tâche de sauvegarde et sauvegarder une dernière fois
+            if self.save_task:
+                self.save_task.cancel()
+            logger.info("Sauvegarde finale des données...")
+            self.data_manager.save_scores()
+            self.data_manager.save_active_groups()
+            logger.info("Données sauvegardées avec succès")
 
         except Exception as e:
             logger.error(f"Erreur critique au démarrage : {e}")
