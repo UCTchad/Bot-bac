@@ -1,2 +1,5 @@
 # -*- coding: UTF-8 -*-
-python-telegram-bot==20.3
+python-telegram-bot[job-queue]==20.3
+telegram
+pytz
+python-telegram-bot[job-queue]
