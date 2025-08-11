@@ -1097,6 +1097,9 @@ class EducationalBot:
             
         except KeyboardInterrupt:
             logger.info("Arrêt du bot demandé par l'utilisateur")
+        except Exception as e:
+            logger.error(f"Erreur critique au démarrage : {e}")
+            print(f"❌ Erreur au démarrage : {e}")
         finally:
             # Arrêter la tâche de sauvegarde et sauvegarder une dernière fois
             if self.save_task:
@@ -1105,10 +1108,6 @@ class EducationalBot:
             self.data_manager.save_scores()
             self.data_manager.save_active_groups()
             logger.info("Données sauvegardées avec succès")
-
-        except Exception as e:
-            logger.error(f"Erreur critique au démarrage : {e}")
-            print(f"❌ Erreur au démarrage : {e}")
 
 async def main():
     """Point d'entrée principal."""
